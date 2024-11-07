@@ -1,4 +1,6 @@
 // ThemeContext.tsx
+"use client";
+
 import { MantineColorShade, MantineColorsTuple, MantineProvider, MantineThemeOverride } from "@mantine/core";
 import { readLocalStorageValue } from "@mantine/hooks";
 import React, { createContext, useContext, useEffect, useState } from "react";
